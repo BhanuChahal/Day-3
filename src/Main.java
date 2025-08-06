@@ -1,15 +1,39 @@
 public class Main {
     public static void main(String[] args) {
-        Address obj3=new Address(" Mumbai "," Maharashtra ",400021);
-        Address obj4=new Address(" Bengaluru ","Karnataka ",560085);
+//        int sum = 0;
+//        for(String arg:args){
+//            sum += Integer.parseInt(arg);
+//        }
+//        System.out.println("Sum:" +sum);
 
-        Employee employee=new Employee("Bhanu ",22,obj3,279980,"GET ",62000);
-        Student student=new Student("Karan ",23,obj4,11,"90");
+//        Animal animal = new Animal();
+//        animal.makeNouse();
+//
+//        Cat an = new Cat();
+//        an.jump();
+//
+//        Animal a = new Cat();
+//        a.makeNouse();
+//
+//        Cat c = (Cat)a;
+//        c.jump();
 
-        employee.displayInfo();
-        employee.applyForLeave();
-        student.displayInfo();
+        Dog d = new Dog("Tisson");
+        Cat c = new Cat("Jackie");
+        Bat b = new Bat("Corona");
+        Fish f = new Fish("Nemo");
+        Parrot p = new Parrot("Maverick");
+        Ostrich o = new Ostrich("Havick");
 
+        p.makeNouse();
+        c.jump();
+        f.eat();
+        b.sleep();
+        d.eat();
+//        AnimalUtils util = new AnimalUtils();
+//        util.addAnimal(d);
+//        util.addAnimal(c);
     }
+
 }
 

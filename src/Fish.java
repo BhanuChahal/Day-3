@@ -1,8 +1,8 @@
-public class Cat extends Animal {
-    public Cat() {
+public class Fish extends Animal{
+    public Fish() {
     }
 
-    public Cat(String name) {
+    public Fish(String name) {
         super(name);
     }
 
@@ -25,8 +25,4 @@ public class Cat extends Animal {
     public void makeNouse() {
         System.out.println(getName()+" is making noise");
     }
-    public void jump() {
-        System.out.println(getName()+" is jumping..");
-    }
-
 }
