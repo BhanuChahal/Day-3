@@ -1,8 +1,7 @@
-public class Fish extends Animal{
-    public Fish() {
-    }
+package com.masai.entity.entity;
 
-    public Fish(String name) {
+public class Ostrich extends Bird{
+    public Ostrich(String name) {
         super(name);
     }
 

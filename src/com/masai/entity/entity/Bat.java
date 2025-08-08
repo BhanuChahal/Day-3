@@ -1,5 +1,12 @@
-public class Parrot extends Bird{
-    public Parrot(String name) {
+package com.masai.entity.entity;
+
+public class Bat extends Animal{
+
+
+    public Bat() {
+    }
+
+    public Bat(String name) {
         super(name);
     }
 

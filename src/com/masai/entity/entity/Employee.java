@@ -1,3 +1,5 @@
+package com.masai.entity.entity;
+
 public class Employee extends Person{
     private int empCode;
     private String designation;

@@ -1,10 +1,10 @@
-public class Bat extends Animal{
+package com.masai.entity.entity;
 
-
-    public Bat() {
+public class Fish extends Animal{
+    public Fish() {
     }
 
-    public Bat(String name) {
+    public Fish(String name) {
         super(name);
     }
 

@@ -1,3 +1,5 @@
+package com.masai.entity.entity;
+
 public class Address {
     private String city;
     private String state;
